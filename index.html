@@ -1,0 +1,664 @@
+<!DOCTYBE html>
+<html>
+  <head>
+        <!--- Start meta ---->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!---- For IE ----->
+      <meta name="viewport" content="width=device-width, initial-scale=1">  <!--- For Mobile Responsivety ---->
+      <!--- End meta --->
+
+	  <title>Design with  bootstrap</title>
+
+        <!--- start css --->
+        <!--<link rel="stylesheet" href="Css/jquery.funnyText.css">-->
+        <link rel="stylesheet" href="Css/font-awesome.min.css">
+        <link rel="stylesheet" href="Css/bootstrap.min.css">
+        <link rel="stylesheet" href="Css/style.css" media="screen">
+        <link rel="stylesheet" href="Css/default-theme.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="shortcut icon"   href="images/favicon.ico">
+        <!--- end css --->
+
+        <!--[if lt IE 9]>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+  <body>
+
+    <section class="option">
+        <div class="color-option">
+        <h4>Chose Color</h4>
+        <ul class="list-unstyled">
+        <li data-value="Css/default-theme.css"></li>
+        <li data-value="Css/blue-theme.css"></li>
+        <li data-value="Css/red-theme.css"></li>
+        <li data-value="Css/steelblue-theme.css"></li>
+        </ul>
+        </div>
+        <i class="fa fa-gear fa-3x color-gear"></i>
+    </section>
+
+    <!--------------------------------------------- Start Nav ----------------------------------------->
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container"> <!-- Start Container -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="ahmed" href="#">A<span>7</span>med</a>
+          </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Company</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Web Design and Develope</a></li>
+            <li><a href="#">Android</a></li>
+            <li><a href="#">Desktop Apps</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#"> Games Programming</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        </div><!-- End Container -->
+    </nav>
+    <!--------------------------------------------- End Nav----------------------------------------->
+
+    <!---------------------------------- Start Carousel ------------------------------>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/slider1.jpg" alt="slider 1">
+          <div class="carousel-caption">
+          <h2>Techno Games</h2>
+          <p class="lead">
+            Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties.
+          </p>
+         </div>
+        </div>
+        <div class="item">
+         <img src="images/slider2.jpg" alt="slider 2">
+         <div class="carousel-caption p-color">
+         <h2>Desktop</h2>
+         <p class="lead">
+          Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties.
+         </p>
+         </div>
+        </div>
+        <div class="item">
+         <img src="images/slider4.jpg" alt="slider 3">
+         <div class="carousel-caption">
+         <h2>Design for Buisness</h2>
+         <p class="lead">
+          Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties.
+         </p>
+         </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+         <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+         <span class="sr-only">Next</span>
+        </a>
+        </div>
+    </div>
+    <!---------------------------------- End Carousel ------------------------------>
+
+    <!-------------------------------- Start Section ------------------------------->
+    <section class="text-center">
+        <div class="container">
+            <div class="about">
+             <h2 class="hidden-xs">About my template <span>A7med</span></h2>
+             <p class="lead">
+               Welcome to my new Bootstrap template, it was designed by <strong>Wep<span>conection</span></strong> for Web Design and Development
+             </p>
+            </div>
+        </div>
+        <div class="features">
+            <div class="container">
+            <h2>Template Features</h2>
+                <div class="features1 col-lg-3">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                    <h3>Creative Design</h3>
+                    <p class="lead">
+                    Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters.
+                    </p>
+                </div>
+
+            <div class="features2 col-lg-3">
+                <span class="glyphicon glyphicon-phone"></span>
+                <h3>100%Responsive</h3>
+                <p class="lead">
+                Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters.
+                </p>
+            </div>
+
+            <div class="features3 col-lg-3">
+                <span class="glyphicon glyphicon-ok"></span>
+                <h3>Easy to Access</h3>
+                <p class="lead">
+                Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters.
+                </p>
+            </div>
+
+            <div class="features4 col-lg-3">
+                <span class="glyphicon glyphicon-eye-open"></span>
+                <h3>Awesome Display</h3>
+                <p class="lead">
+                Modern versions of assistive technologies will announce CSS generated content, as well as specific Unicode characters.
+                </p>
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <!------------------------------- End Section --------------------------------->
+    <!----------------------- Start Testimonials Section ------------------------->
+    <section class="testimonials text-center">
+        <div class="container">
+        <h2>Our Clients Testimonials</h2>
+            <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                 <div class="item active">
+                    <p class="lead">
+                    Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                    </p>
+                    <span>Osama Elzero</span>
+                 </div>
+                 <div class="item">
+                    <p class="lead">
+                    Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                    </p>
+                    <span>Angeliena</span>
+                 </div>
+                 <div class="item">
+                    <p class="lead">
+                    Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                    </p>
+                    <span>Tom Hazard</span>
+                 </div>
+                <div class="item">
+                    <p class="lead">
+                    Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary CSS properties. Thus, there are no slide transition animations when using these browsers.
+                    </p>
+                    <span>John Doe</span>
+                </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                      <img src="images/client1.jpeg">
+                    </li>
+                    <li data-target="#carousel-testimonials" data-slide-to="1">
+                      <img src="images/client2.jpg">
+                    </li>
+                    <li data-target="#carousel-testimonials" data-slide-to="2">
+                      <img src="images/client3.jpeg">
+                    </li>
+                    <li data-target="#carousel-testimonials" data-slide-to="3">
+                      <img src="images/client4.jpeg">
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <!----------------------- End Testimonials Seaction ------------------------->
+
+    <!----------------------- Start Price table Seaction ------------------------->
+
+    <section class="price-table text-center">
+        <div class="container">
+            <h2>Amazing price for <span>you</span></h2>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                    <h3 class="text-info"> Design Templets </h3>
+                    <p class="center-block">$150</p>
+                    <ul class="list-unstyled">
+                     <li>%Responsive</li>
+                     <li>Simple Design</li>
+                     <li>Amazing View</li>
+                     <li>Not Expensive</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Get it Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                    <h3 class="text-danger">Racing Games</h3>
+                    <p class="center-block">$70</p>
+                    <ul class="list-unstyled">
+                     <li>Very entertaining</li>
+                     <li>responsive for mobile</li>
+                     <li>Develop your Skills</li>
+                     <li>play it at any time</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Get it Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                    <h3 class="text-success">Train with us</h3>
+                    <p class="center-block">$40</p>
+                    <ul class="list-unstyled">
+                     <li>How to make games</li>
+                     <li>Learn How to Design</li>
+                     <li>Programing Desktop</li>
+                     <li>be geinus Developer</li>
+                    </ul>
+                    <a href="#" class="btn btn-success">Enroll Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price-box">
+                    <h3 class="text-primary">Android Apps</h3>
+                    <p class="center-block">$110</p>
+                    <ul class="list-unstyled">
+                     <li>some text</li>
+                     <li>some text</li>
+                     <li>some text</li>
+                     <li>some text</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Get it Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!----------------------- End price table Seaction ------------------------->
+        <!----------------------- Start our team Seaction ------------------------->
+    <section class="our-team text-center">
+        <div class="team">
+            <div class="container">
+                <h2>Meet Our Creative Team</h2>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="person">
+                            <img class="img-circle" src="images/person1.jpg" alt="person1">
+                            <h3>Ahmed Yasser</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="person">
+                            <img class="img-circle" src="images/person2.jpg" alt="person2">
+                            <h3>Mei Yasser</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="person">
+                            <img class="img-circle" src="images/person4.jpg" alt="person4">
+                            <h3>Mohamed Yaser</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 col-xs-12 ">
+                        <div class="person">
+                            <img class="img-circle" src="images/person3.jpg" alt="person3">
+                            <h3>Aisha Ahmed</h3>
+                            <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                            </p>
+                            <i class="fa fa-facebook fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-youtube fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!----------------------- End our team  Seaction ------------------------->
+            <!------------------- Start Section Subscribe --------------------------->
+    <section class="subscribe text-center">
+        <div class="container">
+            <h2>Subscribe to Keep in Touch</h2>
+            <p class="lead">subscripe to get the latest news about what`s happen all over the       world
+            </p>
+            <form class="form-inline">
+                <input class="form-control fa-lg" type="text" placeholder="Write Your E-mail">
+                <button class="btn btn-danger fa-lg">
+                <i class="fa fa-edit fa-lg"></i>
+                subscribe
+                </button>
+            </form>
+        </div>
+    </section>
+        <!------------------- End Section Subscribe --------------------------->
+           <!---------------- Start Stats Section -------------------->
+    <section class="stats text-center">
+        <div class="stats-overlay">
+            <div class="container">
+                <h2>Show Our Statistics</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="stats-fa">
+                            <i class="fa fa-users fa-5x"></i>
+                            <p>350,200</p>
+                            <span>Users Number</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="stats-fa">
+                            <i class="fa fa-comments fa-5x"></i>
+                            <p>250,000</p>
+                            <span>Comments</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="stats-fa">
+                            <i class="fa fa-suitcase fa-5x"></i>
+                            <p>140,030</p>
+                            <span>Project done</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="stats-fa">
+                            <i class="fa fa-support fa-5x"></i>
+                            <p>220,503</p>
+                            <span>Tickets</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!---------------- Start Stats Section -------------------->
+            <!------- Start Skills Sections ----------------->
+    <section class="Our-skills">
+        <div class="container">
+            <h2 class="text-center">Our Professional Team Skills</h2>
+                <div class="row">
+                <!----- Start skills-progress --------->
+                <div class="skills-progress">
+                    <div class="col-md-5">
+                    <!-------- Start Progress one ------->
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valiuemax="100" style="width:90%">
+                            HTML & CSS
+                            </div>
+                        </div>
+                    <!-------- End Progress one ------->
+                    <!-------- Start Progress two ------->
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valiuemax="100" style="width:80%">
+                            PHP
+                            </div>
+                        </div>
+                    <!-------- End Progress two ------->
+                    <!-------- Start Progress three ------->
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valiuemax="100" style="width:95%">
+                            JavaScript & Jquery
+                            </div>
+                        </div>
+                    <!-------- End Progress three ------->
+                    <!-------- Start Progress Four ------->
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valiuemax="100" style="width:75%">
+                            WordPress
+                            </div>
+                        </div>
+                    <!-------- End Progress Four ------->
+                    </div>
+                </div>
+                <!----- End Skills-progress --------->
+                    <div class="col-md-6 col-md-offset-1">
+                    <div class="team-info">
+                    <h3>About Us</h3>
+                    <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis porta nisl, ut faucibus libero. Nam id sem ac nulla maximus vestibulum. Sed volutpat neque arcu, non venenatis tortor convallis sit amet
+                    </p>
+                    <button class="btn btn-primary">Taik to professional</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!---------- End Skills Section -------------->
+            <!---------- Start Contct-us Section -------------->
+    <section class="contact-us text-center">
+        <div class="contact-overlay">
+            <div class="soical">
+                <button class=" btn btn-lg btn-block" style="background-color : #2a447b"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></button>
+                <button class=" btn btn-lg btn-block" style="background-color : #4b9cda"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></button>
+                <button class=" btn btn-lg btn-block" style="background-color : #ff9997"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></button>
+                <button class=" btn btn-lg btn-block" style="background-color : #b33524"><i class="fa fa-youtube fa-lg" aria-hidden="true"></i></button>
+            </div>
+            <div class="container">
+                <i class="fa fa-headphones fa-5x" aria-hidden="true"></i>
+                <h2>Get in Touch With Us</h2>
+                <p class="lead">We are pleased and honored to contact you</p>
+                <div class="row">
+                    <form role="form">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="UserName...">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control input-lg autocomplete" placeholder="Type your E-mail..." required>
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control input-lg" placeholder="Password Pleaze...">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control input-lg" placeholder="Enter your phone number...">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <textarea class="form-control input-lg"></textarea>
+                            </div>
+                        <button class="btn btn-success btn-lg btn-block">Contact Us</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!---------- End Contct-us Section -------------->
+            <!-------- Start Our Client Section ----------->
+    <section class="Our-clients text-center">
+        <div class="container">
+            <div class="row">
+                <ul class="list-unstyled">
+                    <li class="col-md-2 col-xs-12">
+                     <img src="images/our-clients/Arrow.png" alt="Arrow">
+                    </li>
+                    <li class="col-md-2 col-xs-12">
+                     <img src="images/our-clients/microsoft.png" alt="microsoft">
+                    </li>
+                    <li class="col-md-2 col-xs-12">
+                     <img src="images/our-clients/easy-net.jpg" alt="easy-net">
+                    </li>
+                    <li class="col-md-2  col-xs-12">
+                     <img src="images/our-clients/vodafone.jpg" alt="optimum">
+                    </li>
+                    <li class="col-md-2 col-xs-12">
+                     <img src="images/our-clients/optimum.jpg" alt="radius">
+                    </li>
+                    <li class="col-md-2 col-xs-12">
+                     <img src="images/our-clients/georgian.png" alt="georgian">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+            <!-------- End Our Client Section ----------->
+            <!----- Start Footer Section --------->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <h3>Sitemap</h3>
+                    <ul class="list-unstyled threecols-list">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Company</li>
+                        <li>Code</li>
+                        <li>Design</li>
+                        <li>Host</li>
+                        <li>Solutions</li>
+                        <li>SiteMap</li>
+                        <li>Contact</li>
+                    </ul>
+                    <ul class="inline list-unstyled social-list">
+                        <li><i class="fa fa-facebook fa-2x"></i></li>
+                        <li><i class="fa fa-twitter fa-2x"></i></li>
+                        <li><i class="fa fa-instagram fa-2x"></i></li>
+                        <li><i class="fa fa-linkedin fa-2x"></i></li>
+                        <li><i class="fa fa-fire fa-2x"></i></li>
+                        <li><i class="fa fa-google-plus fa-2x"></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <h3>Lastest Articles</h3>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                        <img src="images/footer-media/image1.jpg" alt="image1">
+                        </a>
+                        <div>
+                            <h4 class="media-heading">
+                            Web Design
+                            </h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </div>
+                    </div>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                        <img src="images/footer-media/images2.jpg" alt="image2">
+                        </a>
+                        <div>
+                            <h4 class="media-heading">
+                            Games
+                            </h4>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                        <a class="pull-left" href="#">
+                        <img src="images/footer-media/images3.gif" alt="image3">
+                        </a>
+                        </div>
+                        <div class="media-body">
+                        <h4 class="media-heading">
+                        Desktop Apps
+                        </h4>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                        </div>
+                    </div>
+                </div>
+            <div class="col-lg-4 col-xs-12 our-projects">
+                <h3>Our Awesome Work</h3>
+                <div class="img-thumbnail">
+                    <img src="images/Our-work/image1.jpg" alt="project1">
+                    <div class="middel">
+                     <div class="thumbnail-overlay">+Bootstrap</div>
+                    </div>
+                </div>
+                <div class="img-thumbnail">
+                    <img src="images/Our-work/image2.jpg" alt="project1">
+                    <div class="middel">
+                     <div class="thumbnail-overlay">+HTML & CSS</div>
+                    </div>
+                </div>
+                <div class="img-thumbnail">
+                    <img src="images/Our-work/image3.jpg" alt="project1">
+                    <div class="middel">
+                     <div class="thumbnail-overlay">+HTML5 & CSS3</div>
+                    </div>
+                </div>
+                <div class="img-thumbnail">
+                    <img src="images/Our-work/image4.jpg" alt="project1">
+                    <div class="middel">
+                     <div class="thumbnail-overlay">+Bootstrap</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="copy-right text-center">
+        Copyright &copy to <span>DeepWeep Conection</span>
+        </div>
+    </section>
+        <!---- End Footer Section -------->
+
+            <!--Start Loading Section-->
+
+    <section class="loading">
+        <div class="loading-overlay">
+            <div class="load">
+                <li class="list-unstyled"></li>
+                <li class="list-unstyled"></li>
+                <li class="list-unstyled"></li>
+            </div>
+        </div>
+    </section>
+         <!--End Loading Section-->
+
+
+        <!--Start Scroll Up Button-->
+    <div class="scroll-top">
+        <p class="text-center">UP</p>
+    </div>
+         <!--End Scroll Up Button-->
+
+    <!-------- Start Script tags ------------->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--<script src="js/jquery.funnyText.min.js"></script>-->
+    <!-- <script src="Js/jquery.nicescroll.min.js"></script> -->
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="Js/plugin.js"></script>
+    <!-------- End Script tags ------------->
+
+   </body>
+</html>
